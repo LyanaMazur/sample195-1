@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>  </title>
+        <title> HTML tags </title>
     </head>
-    <body>
-<p> New paragraph </p>
-<h1> hello </h1>
-<h2> hello hello</h2>
-<h3> hello hello hello</h3>
-<p> New paragraph #2 </p>
+    <body style="background-color:powderblue;">
+        <h1> My first website </h1>
+        <h2> I am teaching how to use different html tags</h2>
+        <h3> We can have 6 different html headings with different font size</h3>
+        
+        <a href="http://www.w3schools.com"> This is a link to a tutorial </a>
+        
+        <p> This is a new paragraph</p>
+        <p style= "color:red;">This is <b>another</b> paragraph with the other color and one bold word</p>
+        <h3> I can upload picture</h3>
+
+        
+<img id="myImg" src="/New Folder/IMG_1414.JPG" width="304" height="228" style= cursor:pointer; </img>
+
+<figcaption style="color:blue; font-size:130%; font-family:arial">You can get some information about me by clicking my photo!!! </figcaption>
+
+<!--<p id="demo">This is a demonstration.</p>-->
+<textarea id="demo" name="message" rows="4" cols="30" style="color:#8B008B;font-size:130%; font-family:arial"";></textarea>
+
+<script>
+    var img = document.getElementById('myImg');
+   
+    img.onclick=function(){
+        
+     document.getElementById("demo").innerHTML = "Hello, My name is Lyana, I like travelling!!!";   
+        
+    }
+</script>
+
     </body>
 </html>
